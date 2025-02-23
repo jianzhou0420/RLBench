@@ -559,12 +559,12 @@ class Scene(object):
 
         misc.update(links_info)
         
-        objects_color = {}
-        objects_pose = {}
+        #objects_color = {}
+        #objects_pose = {}
         # Objects information
-        for obj in self.pyrep.get_objects_in_tree():
-            if obj.get_handle() > 80:
-                objects_color[obj.get_name()] = obj.get_color()
-                objects_pose[obj.get_name()] = obj.get_pose()
+        #for obj in self.pyrep.get_objects_in_tree():
+         #   if obj.get_handle() > 80:
+          #      objects_color[obj.get_name()] = obj.get_color()
+           #     objects_pose[obj.get_name()] = obj.get_pose()
 
         return misc
